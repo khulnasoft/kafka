@@ -1,5 +1,5 @@
-[![Tests status](https://github.com/optiopay/kafka/workflows/Kafka/badge.svg)](https://github.com/optiopay/kafka/actions?query=workflow%3AKafka)
-[![GoDoc](https://godoc.org/github.com/optiopay/kafka/v2?status.png)](https://godoc.org/github.com/optiopay/kafka/v2)
+[![Build Status](https://travis-ci.org/optiopay/kafka.svg?branch=master)](https://travis-ci.org/optiopay/kafka)
+[![GoDoc](https://godoc.org/github.com/optiopay/kafka?status.png)](https://godoc.org/github.com/optiopay/kafka)
 
 # Kafka
 
@@ -10,8 +10,8 @@ Kafka provides minimal abstraction over wire protocol, support for transparent
 failover and easy to use blocking API.
 
 
-* [godoc](https://godoc.org/github.com/optiopay/kafka/v2) generated documentation,
-* [code examples](https://godoc.org/github.com/optiopay/kafka/v2#pkg-examples)
+* [godoc](https://godoc.org/github.com/optiopay/kafka) generated documentation,
+* [code examples](https://godoc.org/github.com/optiopay/kafka#pkg-examples)
 
 ## Example
 
@@ -28,8 +28,8 @@ import (
     "os"
     "strings"
 
-    "github.com/optiopay/kafka/v2"
-    "github.com/optiopay/kafka/v2/proto"
+    "github.com/optiopay/kafka"
+    "github.com/optiopay/kafka/proto"
 )
 
 const (
